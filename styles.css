@@ -13,11 +13,13 @@ ol {
 }
 body {
   padding-left: 385px;
-  background-image: url('nature-background-image.png');
+  padding-right: 35px;
+}
+html {
+   background-image: url('nature-background-image.png');
   background-repeat: no-repeat;
   background-color: #FFF;
   background-attachment: fixed;
-  padding-right: 35px;
   background-size: cover; 
 }
 .tests {
