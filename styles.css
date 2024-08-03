@@ -15,7 +15,7 @@ body {
   padding-left: 385px;
   background-image: url('nature-background-image.png');
   background-repeat: no-repeat;
-  background-color: rgb(56, 136, 189);
+  background-color: #FFF;
   background-attachment: fixed;
   padding-right: 35px;
   background-size: cover; 
@@ -27,6 +27,7 @@ body {
   color: #446AA8;
   padding: 14px 20px 14px 17px;
   font-family: roboto;
+  list-style: none;
   display: flex;
   justify-content: space-between;
   font-size: 16.3px;
@@ -160,6 +161,7 @@ article {
 main {
  display: flex;
  padding-top: 90px;
+  padding-bottom: 34px;
  justify-content: center;
 }
 .nav1 {
