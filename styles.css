@@ -150,6 +150,9 @@ article {
   border-top-left-radius: 10px;
   box-shadow: 1px 3px 5px 1px rgba(0, 0, 0, 0.267);
 }
+details summary::-webkit-details-marker {
+  display: none; /* Remove default triangle in WebKit browsers */
+}
 .course-header {
   font-size: 14.5px;
   font-family: roboto;
